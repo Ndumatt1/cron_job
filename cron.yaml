@@ -1,0 +1,4 @@
+jobs:
+  - name: send_request
+    schedule: "*/8 * * * *"
+    command: python3 request.py
